@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Hello! CI/CD Pipeline Project');
+    res.send('Hello! CI/CD Pipeline - Version 2');
 });
 
 app.get('/health', (req, res) => {
